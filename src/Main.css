@@ -3,7 +3,7 @@
 .Main {
   margin: 5px;
   background-color: #FAFAFA;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
 }
 
 .Main input {
@@ -12,14 +12,14 @@
   padding: 10px;
   margin-left: 10px;
   border-radius: 40px;
-  outline: #c2c2c2;
+  outline: 1px solid #c2c2c2;
   border: 1px solid rgb(30,178,247);
   background-color: rgb(139, 193, 218);
 }
 
-.Formulario{
-  align-items: center;
+form div {
   display: flex;
+  align-items: center;
 }
 
 

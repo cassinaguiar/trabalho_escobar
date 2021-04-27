@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import './Main.css';
+import Componente from'./componente.js';
+
 
 function Main() {
 
@@ -8,7 +10,7 @@ function Main() {
 
   return (
     <div className="Main">
-      <form className="Formulario">
+      <form>
         <div>
           <p>
             Digite seu nome:
@@ -28,6 +30,7 @@ function Main() {
           <p>{telefone}</p>
         </div>
       </div>
+      <Componente/>
     </div>
   );
 }
